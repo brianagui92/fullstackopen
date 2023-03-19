@@ -2,7 +2,7 @@ New note diagram
 
 ```mermaid
 
-sequeceDiagram
+sequenceDiagram
     participant browser
     participant server
 
