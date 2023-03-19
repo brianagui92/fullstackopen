@@ -26,12 +26,12 @@ sequeceDiagram
     server->>browser: the Javascript file
     deactivate server
 
-    Note right of the browser: The browser executes the JS code that fetches json
+    Note right of browser: The browser executes the JS code that fetches json
 
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/data.json
     activate server
     server->>browser: [{content: "kkkkk", date: "2023-03-18T19:21:33.792Z"},…]
     deactivate server
 
-    note right of the browser: The browser executes the callback function that renders the notes
+    Note right of browser: The browser executes the callback function that renders the notes
 ```
